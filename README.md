@@ -20,12 +20,15 @@ text-align: center;
 header {
 background-color: #005c99;
 color: white;
-padding: 20px 0;
+padding: 20px 0; 
 }
 
 h1 {
 margin: 0;
-font-size: 2.5em;
+font-size: 3.5em; font-weight: 900;
+letter-spacing: 2px;
+text-shadow: 2px 2px #003d66;
+font-family: 'Orbitron', sans-serif;
 }
 
 img {
