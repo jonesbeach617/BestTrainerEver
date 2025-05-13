@@ -1,87 +1,129 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="description" content="Yoni's Sports Training for all sports and all ages in Lawrence, NY. Book private sessions.">
-<meta name="keywords" content="Yoni, Sports Training, Basketball, Football, Private Coaching, Lawrence NY">
-<meta name="author" content="Yoni Bobker">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta name="description" content="Yoni's Sports Training in Lawrence, NY - All sports, all ages. Private lessons available." />
+<meta name="keywords" content="Sports training, Basketball, Football, Private coaching, Lawrence NY" />
+<meta name="author" content="Yoni Bobker" />
 <title>Yoni's Sports Training</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
 <style>
 body {
-background-color: #b3d9ff; /* Powder blue */
-font-family: Arial, sans-serif;
-text-align: center;
-color: #222;
 margin: 0;
-padding: 0;
+font-family: 'Roboto', sans-serif;
+background-color: #b3d9ff; /* powder blue */
+color: #333;
+text-align: center;
 }
 
 header {
-background-color: #004080;
+background-color: #005c99;
 color: white;
-padding: 20px 10px;
+padding: 20px 0;
 }
 
 h1 {
 margin: 0;
+font-size: 2.5em;
 }
 
 img {
-width: 90%;
-max-width: 500px;
-margin: 20px auto;
+margin: 20px 0;
+width: 180px;
+height: 280px;
 border-radius: 10px;
-box-shadow: 0 0 10px #555;
+box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .info {
+padding: 20px;
+}
+
+.booking {
+background-color: #e6f2ff;
+padding: 30px 15px;
+margin: 20px auto;
+border-radius: 10px;
+max-width: 400px;
+}
+
+.booking h2 {
+color: #005c99;
+}
+
+.booking input, .booking select {
 padding: 10px;
+margin: 10px 0;
+width: 90%;
+border: 1px solid #aaa;
+border-radius: 5px;
 }
 
-.book-button {
-background-color: #0066cc;
+.booking button {
+background-color: #0077cc;
 color: white;
-padding: 15px 25px;
-font-size: 18px;
 border: none;
-border-radius: 8px;
+padding: 12px 25px;
+font-size: 16px;
 cursor: pointer;
-margin: 20px;
+border-radius: 5px;
+margin-top: 10px;
 }
 
-.book-button:hover {
-background-color: #004080;
+.booking button:hover {
+background-color: #005fa3;
+}
+
+footer {
+background-color: #003d66;
+color: white;
+padding: 15px 0;
+margin-top: 40px;
 }
 
 .contact {
-background-color: #e6f2ff;
-padding: 15px;
-font-size: 16px;
+margin: 10px 0;
 }
 </style>
 </head>
 <body>
 <header>
 <h1>Yoni's Sports Training</h1>
-<p>Lawrence, NY 11559 | All Sports, All Ages</p>
+<p>Lawrence, NY 11559 | All Sports • All Ages</p>
 </header>
 
-<img src="Basketball.jpg" alt="Kid playing basketball" width= "180" height= "280">
+<img src="Basketball.jpg" alt="Kid playing basketball" width= "180" height= "280" />
 
 <div class="info">
-<h2>1-on-1 Private Training</h2>
-<p>$75 for 1-on-1</p>
-<p>$90 for 2 kids</p>
-<p>$15 for each additional child (up to 6)</p>
-
-<a href="mailto:yonibobker@gmail.com?subject=Book Training Session&body=Hi Yoni,%0D%0AI'd like to book a training session on [insert date and time].%0D%0AThanks!" target="_blank">
-<button class="book-button">Book a Session</button>
-</a>
+<h2>Private Lessons Available</h2>
+<p>1-on-1: $75</p>
+<p>2 kids: $90</p>
+<p>+ $15 for each additional child</p>
+<p>Call or text: <strong>+1 (516) 666-0292</strong></p>
+<p>Email: <strong>yonibobker@gmail.com</strong></p>
 </div>
 
+<div class="booking">
+<h2>Book a Session</h2>
+<form action="mailto:yonibobker@gmail.com" method="POST" enctype="text/plain">
+<input type="text" name="Name" placeholder="Your Name" required />
+<input type="email" name="Email" placeholder="Your Email" required />
+<input type="date" name="Date" required />
+<input type="time" name="Time" required />
+<select name="Package">
+<option value="1-on-1 ($75)">1-on-1 ($75)</option>
+<option value="2 kids ($90)">2 Kids ($90)</option>
+<option value="3+ kids">3+ Kids (+$15 each)</option>
+</select>
+<button type="submit">Book Now</button>
+</form>
+</div>
+
+<footer>
 <div class="contact">
-<p>Contact: +1 516-666-0292 | Email: <a href="mailto:yonibobker@gmail.com">yonibobker@gmail.com</a></p>
+&copy; 2025 Yoni's Sports Training. All rights reserved.
 </div>
+</footer>
 </body>
 </html>
