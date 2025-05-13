@@ -36,7 +36,7 @@ box-shadow: 0 0 10px #555;
 }
 
 .info {
-padding: 5px;
+padding: 10px;
 }
 
 .book-button {
