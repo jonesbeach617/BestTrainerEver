@@ -67,7 +67,7 @@ font-size: 16px;
 <p>Lawrence, NY 11559 | All Sports, All Ages</p>
 </header>
 
-<img src="Basketball.jpg" alt="Kid playing basketball">
+<img src="Basketball.jpg" alt="Kid playing basketball" width= "180" height= "280">
 
 <div class="info">
 <h2>1-on-1 Private Training</h2>
