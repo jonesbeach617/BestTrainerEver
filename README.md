@@ -28,9 +28,9 @@ margin: 0;
 }
 
 img {
-width: 20%;
-max-width: 50px;
-margin: 5px auto;
+width: 90%;
+max-width: 500px;
+margin: 20px auto;
 border-radius: 10px;
 box-shadow: 0 0 10px #555;
 }
