@@ -1,4 +1,3 @@
-
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -126,7 +125,7 @@ margin-top: 40px;
 <p>2 kids: $90</p>
 <p>+ $15 for each additional child</p>
 <p>Call or Text: <a href="tel:+15166660292">+1 (516) 666-0292</a></p>
-<p>Email: <a href="mailto:yonibobker@gmail.com">yonibobker@gmail.com</a></p>
+<p>Email: <a href="mailto:Yonibobker@gmail.com">yonibobker@gmail.com</a></p>
 </div>
 
 <div class="booking">
