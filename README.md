@@ -28,15 +28,15 @@ margin: 0;
 }
 
 img {
-width: 45%;
-max-width: 250px;
-margin: 10px auto;
+width: 20%;
+max-width: 50px;
+margin: 5px auto;
 border-radius: 10px;
 box-shadow: 0 0 10px #555;
 }
 
 .info {
-padding: 20px;
+padding: 5px;
 }
 
 .book-button {
