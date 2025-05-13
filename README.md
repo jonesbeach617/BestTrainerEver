@@ -1,4 +1,4 @@
-
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8" />
@@ -7,11 +7,14 @@
 <meta name="keywords" content="Sports training, Basketball, Football, Private coaching, Lawrence NY" />
 <meta name="author" content="Yoni Bobker" />
 <title>Yoni's Sports Training</title>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet" />
+
+<!-- Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600;900&display=swap" rel="stylesheet" />
+
 <style>
 body {
 margin: 0;
-font-family: 'Roboto', sans-serif;
+font-family: 'Orbitron', sans-serif;
 background-color: #b3d9ff; /* powder blue */
 color: #333;
 text-align: center;
@@ -20,13 +23,15 @@ text-align: center;
 header {
 background-color: #005c99;
 color: white;
-padding: 20px 0; 
+padding: 30px 0;
 }
 
 h1 {
 margin: 0;
-font-size: 5.5em; font-weight: 900;
+font-size: 3.5em;
+font-weight: 900;
 letter-spacing: 2px;
+text-shadow: 2px 2px #003d66;
 }
 
 img {
@@ -39,6 +44,12 @@ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 
 .info {
 padding: 20px;
+}
+
+.info a {
+color: #005c99;
+text-decoration: none;
+font-weight: bold;
 }
 
 .booking {
@@ -76,15 +87,27 @@ margin-top: 10px;
 background-color: #005fa3;
 }
 
+.about {
+background-color: #ffffff;
+padding: 30px;
+max-width: 700px;
+margin: 30px auto;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+color: #333;
+}
+
+.about h2 {
+color: #005c99;
+font-size: 2em;
+margin-bottom: 10px;
+}
+
 footer {
 background-color: #003d66;
 color: white;
 padding: 15px 0;
 margin-top: 40px;
-}
-
-.contact {
-margin: 10px 0;
 }
 </style>
 </head>
@@ -94,15 +117,15 @@ margin: 10px 0;
 <p>Lawrence, NY 11559 | All Sports • All Ages</p>
 </header>
 
-<img src="Basketball.jpg" alt="Kid playing basketball" width= "180" height= "280" />
+<img src="Basketball.jpg" alt="Kid playing basketball" width="180" height= "280" />
 
 <div class="info">
 <h2>Private Lessons Available</h2>
 <p>1-on-1: $75</p>
 <p>2 kids: $90</p>
 <p>+ $15 for each additional child</p>
-<p>Call or text: <strong>+1 (516) 666-0292</strong></p>
-<p>Email: <strong>yonibobker@gmail.com</strong></p>
+<p>Call or Text: <a href="tel:+15166660292">+1 (516) 666-0292</a></p>
+<p>Email: <a href="mailto:yonibobker@gmail.com">yonibobker@gmail.com</a></p>
 </div>
 
 <div class="booking">
@@ -121,10 +144,15 @@ margin: 10px 0;
 </form>
 </div>
 
-<footer>
-<div class="contact">
-&copy; 2025 Yoni's Sports Training. All rights reserved.
+<div class="about">
+<h2>About Yoni</h2>
+<p>Coach Yoni has years of experience training athletes of all ages in basketball, football, and more.
+Based in Lawrence, NY, Yoni focuses on building skills, confidence, and teamwork in a fun and motivating environment.</p>
+<p>Whether you're just starting or looking to take your game to the next level, Yoni offers custom coaching tailored to your goals.</p>
 </div>
+
+<footer>
+&copy; 2025 Yoni's Sports Training. All rights reserved.
 </footer>
 </body>
 </html>
