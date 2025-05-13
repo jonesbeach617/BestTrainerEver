@@ -81,6 +81,7 @@ font-size: 16px;
 cursor: pointer;
 border-radius: 5px;
 margin-top: 10px;
+  width= "250" height= "250"
 }
 
 .booking button:hover {
